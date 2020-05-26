@@ -1,1 +1,3 @@
-<p><%= @students %></p>
+<% @students.each do |x|%>
+  <p><%= x.first_name %></p>
+<% end %>
